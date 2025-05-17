@@ -4,10 +4,13 @@
     box-sizing: border-box;
     font-family: 'poppins',sans-serif;
 }
+body{
+        background: linear-gradient(135deg, #153677, #4e085f);
+
+}
 .container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg, #153677, #4e085f);
     padding: 10px;
 }
 .todo-app{
@@ -131,3 +134,4 @@ ul li span:hover{
     background:#467ce8;
     transition: 1s;
 }
+
